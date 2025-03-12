@@ -3,3 +3,5 @@
 ################################################################################
 
 /Extensions/AmmFramework.Extensions.Abstractions/.vs
+/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Caching.Abstractions/bin
+/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Caching.Abstractions/obj
