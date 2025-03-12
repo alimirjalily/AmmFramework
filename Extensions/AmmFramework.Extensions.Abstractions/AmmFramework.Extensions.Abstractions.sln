@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.Eve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.Logger.Abstractions", "AmmFramework.Extensions.Logger.Abstractions\AmmFramework.Extensions.Logger.Abstractions.csproj", "{91DB0EEF-8BFA-413D-B379-39D032084869}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.MessageBus.Abstractions", "AmmFramework.Extensions.MessageBus.Abstractions\AmmFramework.Extensions.MessageBus.Abstractions.csproj", "{86F786AB-D5A7-4C6D-B6C0-D9C94D21BA5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{91DB0EEF-8BFA-413D-B379-39D032084869}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91DB0EEF-8BFA-413D-B379-39D032084869}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91DB0EEF-8BFA-413D-B379-39D032084869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F786AB-D5A7-4C6D-B6C0-D9C94D21BA5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F786AB-D5A7-4C6D-B6C0-D9C94D21BA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F786AB-D5A7-4C6D-B6C0-D9C94D21BA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F786AB-D5A7-4C6D-B6C0-D9C94D21BA5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
