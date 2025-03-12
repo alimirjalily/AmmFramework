@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.Log
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.MessageBus.Abstractions", "AmmFramework.Extensions.MessageBus.Abstractions\AmmFramework.Extensions.MessageBus.Abstractions.csproj", "{86F786AB-D5A7-4C6D-B6C0-D9C94D21BA5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.ObjectMappers.Abstractions", "AmmFramework.Extensions.ObjectMappers.Abstractions\AmmFramework.Extensions.ObjectMappers.Abstractions.csproj", "{F6DEAA72-5474-49D6-BB0C-30B0955676C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{86F786AB-D5A7-4C6D-B6C0-D9C94D21BA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86F786AB-D5A7-4C6D-B6C0-D9C94D21BA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86F786AB-D5A7-4C6D-B6C0-D9C94D21BA5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6DEAA72-5474-49D6-BB0C-30B0955676C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DEAA72-5474-49D6-BB0C-30B0955676C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DEAA72-5474-49D6-BB0C-30B0955676C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DEAA72-5474-49D6-BB0C-30B0955676C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
