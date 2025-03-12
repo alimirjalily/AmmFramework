@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.35821.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.Caching.Abstractions", "AmmFramework.Extensions.Caching.Abstractions\AmmFramework.Extensions.Caching.Abstractions.csproj", "{2948EA52-6149-4F23-9CC8-6185AE944554}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.ChangeDataLog.Abstractions", "AmmFramework.Extensions.ChangeDataLog.Abstractions\AmmFramework.Extensions.ChangeDataLog.Abstractions.csproj", "{F250A7DB-1D57-4F43-8BEF-1F2AA33F6D18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2948EA52-6149-4F23-9CC8-6185AE944554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2948EA52-6149-4F23-9CC8-6185AE944554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2948EA52-6149-4F23-9CC8-6185AE944554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F250A7DB-1D57-4F43-8BEF-1F2AA33F6D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F250A7DB-1D57-4F43-8BEF-1F2AA33F6D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F250A7DB-1D57-4F43-8BEF-1F2AA33F6D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F250A7DB-1D57-4F43-8BEF-1F2AA33F6D18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
