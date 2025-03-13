@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.Obj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.Serializers.Abstractions", "AmmFramework.Extensions.Serializers.Abstractions\AmmFramework.Extensions.Serializers.Abstractions.csproj", "{A5DCFC0A-9447-4A68-AAF5-92FD1441042E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.Translations.Abstractions", "AmmFramework.Extensions.Translations.Abstractions\AmmFramework.Extensions.Translations.Abstractions.csproj", "{1370BCBF-DAB5-4643-ACFE-AA76C0B1F7DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{A5DCFC0A-9447-4A68-AAF5-92FD1441042E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5DCFC0A-9447-4A68-AAF5-92FD1441042E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5DCFC0A-9447-4A68-AAF5-92FD1441042E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1370BCBF-DAB5-4643-ACFE-AA76C0B1F7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1370BCBF-DAB5-4643-ACFE-AA76C0B1F7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1370BCBF-DAB5-4643-ACFE-AA76C0B1F7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1370BCBF-DAB5-4643-ACFE-AA76C0B1F7DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
