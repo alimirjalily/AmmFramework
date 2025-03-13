@@ -1,0 +1,6 @@
+@AmmFramework.Extensions.Caching.InMemory.Sample_HostAddress = http://localhost:5073
+
+GET {{AmmFramework.Extensions.Caching.InMemory.Sample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

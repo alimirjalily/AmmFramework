@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.35906.104 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.Caching.InMemory", "AmmFramework.Extensions.Caching.InMemory\AmmFramework.Extensions.Caching.InMemory.csproj", "{5E758979-6CB8-417D-9524-AB816E4DE0C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.Caching.InMemory.Sample", "AmmFramework.Extensions.Caching.InMemory.Sample\AmmFramework.Extensions.Caching.InMemory.Sample.csproj", "{E76544EC-994D-44AF-A656-8C380B7DD4FC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E758979-6CB8-417D-9524-AB816E4DE0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E758979-6CB8-417D-9524-AB816E4DE0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E758979-6CB8-417D-9524-AB816E4DE0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E758979-6CB8-417D-9524-AB816E4DE0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76544EC-994D-44AF-A656-8C380B7DD4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76544EC-994D-44AF-A656-8C380B7DD4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76544EC-994D-44AF-A656-8C380B7DD4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76544EC-994D-44AF-A656-8C380B7DD4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

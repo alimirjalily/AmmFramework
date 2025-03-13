@@ -2,26 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Extensions/AmmFramework.Extensions.Abstractions/.vs
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Caching.Abstractions/bin
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Caching.Abstractions/obj
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.ChangeDataLog.Abstractions/bin
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.ChangeDataLog.Abstractions/obj
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.DependencyInjection.Abstractions/bin
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.DependencyInjection.Abstractions/obj
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Events.Abstractions/bin
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Events.Abstractions/obj
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Logger.Abstractions/bin/
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Logger.Abstractions/obj
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.MessageBus.Abstractions/bin
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.MessageBus.Abstractions/obj
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.ObjectMappers.Abstractions/bin
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.ObjectMappers.Abstractions/obj
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Serializers.Abstractions/bin/
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Serializers.Abstractions/obj
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Translations.Abstractions/bin
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.Translations.Abstractions/obj
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.UsersManagement.Abstractions/bin
-/Extensions/AmmFramework.Extensions.Abstractions/AmmFramework.Extensions.UsersManagement.Abstractions/obj
-/Extensions/AmmFramework.Extensions.Caching.InMemory/.vs/AmmFramework.Extensions.Caching.InMemory/v17
-/Extensions/Caching/AmmFramework.Extensions.Caching.InMemory/.vs/AmmFramework.Extensions.Caching.InMemory/v17
+**/bin/
+**/obj/
+**/.vs/
