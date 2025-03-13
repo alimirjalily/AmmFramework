@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AmmFramework.Extensions.Caching.Abstractions">
+      <HintPath>..\..\..\AmmFramework.Extensions.Abstractions\AmmFramework.Extensions.Caching.Abstractions\bin\Debug\net9.0\AmmFramework.Extensions.Caching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="AmmFramework.Extensions.Serializers.Abstractions">
+      <HintPath>..\..\..\AmmFramework.Extensions.Abstractions\AmmFramework.Extensions.Serializers.Abstractions\bin\Debug\net9.0\AmmFramework.Extensions.Serializers.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
