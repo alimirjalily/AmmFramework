@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AmmFramework.Extensions.Caching.Abstractions" Version="1.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
   </ItemGroup>
 
@@ -16,12 +17,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AmmFramework.Extensions.Caching.InMemory\AmmFramework.Extensions.Caching.InMemory.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="AmmFramework.Extensions.Caching.Abstractions">
-      <HintPath>..\..\..\AmmFramework.Extensions.Abstractions\AmmFramework.Extensions.Caching.Abstractions\bin\Debug\net9.0\AmmFramework.Extensions.Caching.Abstractions.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

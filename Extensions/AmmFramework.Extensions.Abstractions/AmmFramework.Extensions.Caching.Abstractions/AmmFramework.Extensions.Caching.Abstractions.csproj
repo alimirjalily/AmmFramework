@@ -4,6 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>AmmFramework.Extensions.Caching.Abstractions</PackageId>    
     <Version>1.0.0</Version>
     <Authors>Ali Mirjalili</Authors>
     <ImplicitUsings>enable</ImplicitUsings>
