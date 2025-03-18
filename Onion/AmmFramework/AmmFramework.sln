@@ -25,6 +25,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Core.RequestRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Core.ApplicationService", "1.Core\AmmFramework.Core.ApplicationService\AmmFramework.Core.ApplicationService.csproj", "{524C58EA-4337-4E12-BAB1-5029BB0F7EB2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4C903DC4-06F7-4709-B705-DCDEB3CA7FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Infra.Data.Sql", "2.Infra\Data\AmmFramework.Infra.Data.Sql\AmmFramework.Infra.Data.Sql.csproj", "{E3EFA50E-1A73-4FEE-81BB-6C34052BC5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Infra.Data.Sql.Commands", "2.Infra\Data\AmmFramework.Infra.Data.Sql.Commands\AmmFramework.Infra.Data.Sql.Commands.csproj", "{A64277DF-33E2-4F7B-BF77-183306D2012D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Infra.Data.Queries", "2.Infra\Data\AmmFramework.Infra.Data.Queries\AmmFramework.Infra.Data.Queries.csproj", "{C73E8EF0-2A8D-45D1-B069-B1561A0CABB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +59,18 @@ Global
 		{524C58EA-4337-4E12-BAB1-5029BB0F7EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{524C58EA-4337-4E12-BAB1-5029BB0F7EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{524C58EA-4337-4E12-BAB1-5029BB0F7EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3EFA50E-1A73-4FEE-81BB-6C34052BC5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EFA50E-1A73-4FEE-81BB-6C34052BC5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EFA50E-1A73-4FEE-81BB-6C34052BC5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EFA50E-1A73-4FEE-81BB-6C34052BC5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64277DF-33E2-4F7B-BF77-183306D2012D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64277DF-33E2-4F7B-BF77-183306D2012D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64277DF-33E2-4F7B-BF77-183306D2012D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64277DF-33E2-4F7B-BF77-183306D2012D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73E8EF0-2A8D-45D1-B069-B1561A0CABB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73E8EF0-2A8D-45D1-B069-B1561A0CABB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73E8EF0-2A8D-45D1-B069-B1561A0CABB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73E8EF0-2A8D-45D1-B069-B1561A0CABB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +85,10 @@ Global
 		{2884D9D5-C5CF-4536-8DCB-FE641019F098} = {51142206-87CD-4423-9F42-E10B9C563521}
 		{0FAF1391-9BB9-4627-8455-B2CAE9B2C80A} = {51142206-87CD-4423-9F42-E10B9C563521}
 		{524C58EA-4337-4E12-BAB1-5029BB0F7EB2} = {51142206-87CD-4423-9F42-E10B9C563521}
+		{4C903DC4-06F7-4709-B705-DCDEB3CA7FFB} = {DD5D28A6-666D-448E-8951-3C1842AEF018}
+		{E3EFA50E-1A73-4FEE-81BB-6C34052BC5DD} = {4C903DC4-06F7-4709-B705-DCDEB3CA7FFB}
+		{A64277DF-33E2-4F7B-BF77-183306D2012D} = {4C903DC4-06F7-4709-B705-DCDEB3CA7FFB}
+		{C73E8EF0-2A8D-45D1-B069-B1561A0CABB2} = {4C903DC4-06F7-4709-B705-DCDEB3CA7FFB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C561CCC-0131-460F-9F40-1133FC68089B}

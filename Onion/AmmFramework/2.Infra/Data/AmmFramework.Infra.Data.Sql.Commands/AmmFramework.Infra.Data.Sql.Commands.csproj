@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="AmmFramework.Extensions.Serializers.Abstractions" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\0.Utilities\AmmFramework.Utilities\AmmFramework.Utilities.csproj" />
+    <ProjectReference Include="..\..\..\1.Core\AmmFramework.Core.Contracts\AmmFramework.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\1.Core\AmmFramework.Core.Domain\AmmFramework.Core.Domain.csproj" />
+    <ProjectReference Include="..\AmmFramework.Infra.Data.Sql\AmmFramework.Infra.Data.Sql.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.EntityFrameworkCore" />
+  </ItemGroup>
+
+</Project>
