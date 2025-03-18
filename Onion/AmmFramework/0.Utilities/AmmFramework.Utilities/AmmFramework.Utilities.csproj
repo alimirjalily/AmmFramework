@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AmmFramework.Extensions.UsersManagement.Abstractions" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
+    <PackageReference Include="AmmFramework.Extensions.Caching.Abstractions" Version="1.0.0" />
+    <PackageReference Include="AmmFramework.Extensions.DependencyInjection.Abstractions" Version="1.0.0" />
+    <PackageReference Include="AmmFramework.Extensions.Logger.Abstractions" Version="1.0.0" />
+    <PackageReference Include="AmmFramework.Extensions.ObjectMappers.Abstractions" Version="1.0.0" />
+    <PackageReference Include="AmmFramework.Extensions.Serializers.Abstractions" Version="1.0.0" />
+    <PackageReference Include="AmmFramework.Extensions.Translations.Abstractions" Version="1.0.0" />
+  </ItemGroup>
+
+
+</Project>
