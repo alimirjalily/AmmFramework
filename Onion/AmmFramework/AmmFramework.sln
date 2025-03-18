@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Infra.Data.Sql
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Infra.Data.Queries", "2.Infra\Data\AmmFramework.Infra.Data.Queries\AmmFramework.Infra.Data.Queries.csproj", "{C73E8EF0-2A8D-45D1-B069-B1561A0CABB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.EndPoints.Web", "3.EndPoints\AmmFramework.EndPoints.Web\AmmFramework.EndPoints.Web.csproj", "{C9ABA3B1-8FB6-400A-99AB-84A32F994AB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{C73E8EF0-2A8D-45D1-B069-B1561A0CABB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C73E8EF0-2A8D-45D1-B069-B1561A0CABB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C73E8EF0-2A8D-45D1-B069-B1561A0CABB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9ABA3B1-8FB6-400A-99AB-84A32F994AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9ABA3B1-8FB6-400A-99AB-84A32F994AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9ABA3B1-8FB6-400A-99AB-84A32F994AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9ABA3B1-8FB6-400A-99AB-84A32F994AB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +95,7 @@ Global
 		{E3EFA50E-1A73-4FEE-81BB-6C34052BC5DD} = {4C903DC4-06F7-4709-B705-DCDEB3CA7FFB}
 		{A64277DF-33E2-4F7B-BF77-183306D2012D} = {4C903DC4-06F7-4709-B705-DCDEB3CA7FFB}
 		{C73E8EF0-2A8D-45D1-B069-B1561A0CABB2} = {4C903DC4-06F7-4709-B705-DCDEB3CA7FFB}
+		{C9ABA3B1-8FB6-400A-99AB-84A32F994AB2} = {F6242835-45EF-4F39-99A1-E6FD4CED1677}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C561CCC-0131-460F-9F40-1133FC68089B}
