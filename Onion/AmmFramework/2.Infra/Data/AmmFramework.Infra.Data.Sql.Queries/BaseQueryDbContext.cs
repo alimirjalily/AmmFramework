@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace AmmFramework.Infra.Data.Queries;
+namespace AmmFramework.Infra.Data.Sql.Queries;
 
 public abstract class BaseQueryDbContext : DbContext
 {

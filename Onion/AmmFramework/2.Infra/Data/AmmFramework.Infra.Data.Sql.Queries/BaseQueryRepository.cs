@@ -1,6 +1,6 @@
 ﻿using AmmFramework.Core.Contracts.Data.Queries;
 
-namespace AmmFramework.Infra.Data.Queries;
+namespace AmmFramework.Infra.Data.Sql.Queries;
 
 public class BaseQueryRepository<TDbContext> : IQueryRepository
     where TDbContext : BaseQueryDbContext

@@ -4,7 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageId>AmmFramework.Infra.Data.Sql</PackageId>
+    <PackageId>AmmFramework.Infra.Data.Sql.Queries</PackageId>
     <Version>1.0.0</Version>
     <Authors>Ali Mirjalili</Authors>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -13,12 +13,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AmmFramework.Extensions.UsersManagement.Abstractions" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\0.Utilities\AmmFramework.Utilities\AmmFramework.Utilities.csproj" />
     <ProjectReference Include="..\..\..\1.Core\AmmFramework.Core.Contracts\AmmFramework.Core.Contracts.csproj" />
-    <ProjectReference Include="..\..\..\1.Core\AmmFramework.Core.Domain\AmmFramework.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\..\1.Core\AmmFramework.Core.RequestResponse\AmmFramework.Core.RequestResponse.csproj" />
   </ItemGroup>
 
 </Project>
