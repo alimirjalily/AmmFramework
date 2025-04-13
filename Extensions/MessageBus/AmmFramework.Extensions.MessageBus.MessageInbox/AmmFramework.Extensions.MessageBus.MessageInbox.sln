@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35906.104 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.MessageBus.MessageInbox", "AmmFramework.Extensions.MessageBus.MessageInbox\AmmFramework.Extensions.MessageBus.MessageInbox.csproj", "{765E70A0-F001-4C3A-B012-42618D675530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmmFramework.Extensions.MessageBus.MessageInbox.Dal.Dapper", "AmmFramework.Extensions.MessageBus.MessageInbox.Dal.Dapper\AmmFramework.Extensions.MessageBus.MessageInbox.Dal.Dapper.csproj", "{28E28007-5698-40E7-9A7D-845B5DD8E5A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{765E70A0-F001-4C3A-B012-42618D675530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765E70A0-F001-4C3A-B012-42618D675530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765E70A0-F001-4C3A-B012-42618D675530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765E70A0-F001-4C3A-B012-42618D675530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E28007-5698-40E7-9A7D-845B5DD8E5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E28007-5698-40E7-9A7D-845B5DD8E5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E28007-5698-40E7-9A7D-845B5DD8E5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E28007-5698-40E7-9A7D-845B5DD8E5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D1E5EAA-A0F6-48A9-B729-4D3606D66AA4}
+	EndGlobalSection
+EndGlobal
